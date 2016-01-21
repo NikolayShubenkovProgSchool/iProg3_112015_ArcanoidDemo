@@ -20,7 +20,11 @@
 #pragma mark - Init
 
 - (instancetype)initWithSize:(CGSize)size {
-    
+    /**
+     /////
+     
+     - returns: <#return value description#>
+     */
     self = [super initWithColor:[UIColor redColor] size:size];
     
     SKLabelNode *score = [SKLabelNode node];
